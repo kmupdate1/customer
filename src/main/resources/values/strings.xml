@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ProgramingList>
+    <TagList>
+        <tag id="0" label="title">title</tag>
+        <tag id="1" label="page_title">page_title</tag>
+        <tag id="2" label="message">message</tag>
+        <tag id="3" label="alert_message">alert_message</tag>
+        <tag id="4" label="alert">alert</tag>
+        <tag id="5" label="identifier">identifier</tag>
+        <tag id="6" label="password">password</tag>
+        <tag id="7" label="administrator">administrator</tag>
+        <tag id="8" label="identifier">identifier</tag>
+        <tag id="9" label="accounts">accounts</tag>
+        <tag id="10" label="account">account</tag>
+        <tag id="11" label="product_name">product_name</tag>
+        <tag id="12" label="product_name_kana">product_name_kana</tag>
+        <tag id="13" label="price">price</tag>
+        <tag id="14" label="price_tax">price_tax</tag>
+        <tag id="15" label="enabled">enabled</tag>
+        <tag id="16" label="products">products</tag>
+    </TagList>
+
+    <MessageList>
+        <message id="0" label="title">綿重商店</message>
+        <message id="1" label="page_title">ログイン</message>
+        <message id="2" label="message">IDとパスワードを入力してください</message>
+        <message id="3" label="page_title">サインイン</message>
+        <message id="4" label="alert_message">既に存在するアカウントです</message>
+        <message id="5" label="alert_message">IDまたはパスワードが間違っています</message>
+        <message id="6" label="alert_message">IDまたはパスワードを正しく入力してください</message>
+        <message id="7" label="alert_message">パスワードが一致しません</message>
+        <message id="8" label="message">この内容で登録しますか？</message>
+        <message id="9" label="page_title">顧客管理サービス</message>
+        <message id="10" label="message">各種メニューを選択してください</message>
+        <message id="11" label="alert_message">ログイン中のアカウントは削除できません</message>
+        <message id="12" label="message">編集または削除を選択してください</message>
+        <message id="13" label="alert_message">商品が登録されていません</message>
+        <message id="14" label="message">この内容で商品を追加します</message>
+        <message id="15" label="message">商品一覧です</message>
+        <message id="16" label="alert_message">全て入力してください</message>
+    </MessageList>
+
+    <ConfigurationList>
+        <database id="0" label="url">jdbc:postgresql://localhost:5432/customer</database>
+        <database id="1" label="user">wataju</database>
+        <database id="2" label="driver">org.postgresql.Driver</database>
+        <database id="3" label="password">takoyaki</database>
+    </ConfigurationList>
+
+</ProgramingList>
