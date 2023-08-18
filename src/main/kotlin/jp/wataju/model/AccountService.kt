@@ -3,7 +3,6 @@ package jp.wataju.model
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
 import java.util.*
-import kotlin.collections.ArrayList
 
 data class Account(
     val id: UUID,
